@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</div>
+<script>
+  
+
+function Add(){
+    let input=document.getElementById("InputBox").value;
+    let list=document.getElementById("list");
+    let get=document.createElement("li");
+    get.innerHTML=input;
+    list.appendChild(get);
+    input.value=""
+
+
+}
+
+
+
+</script>
+</head>
+<body> <div class="container">
+    <div class="box">
+        <h2>
+            TO DO list
+        </h2>
+    <input type="text" id="InputBox" placeholder="add your work">
+<button onclick="Add()" id="button">Add</button>
+<div id="list">
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('pexels-jessbaileydesign-1162519.jpg');
+
+    
+
+
+}
+
+h2{
+    color: white;
+    padding-left: 120px;
+    padding-top:40px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(33, 29, 49);
+    border-radius: 10px;
+    /* display: flex; */
+    justify-content: center;
+   align-items: center;
+   margin-top: 150px;
+}
+#InputBox{
+    border-radius: 20px;
+    width: 70%;
+    padding:15px;
+    border: 2px solid #fff;
+    position: relative;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    box-shadow: 7px 6px 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+}
+#InputBox:focus{
+    border: 2px solid #fff;
+    box-shadow: 7px 6px 5px;
+
+
+}
+#button{
+    width: 20%;
+    padding:15px;
+    border-radius: 20px;
+    box-shadow:7px 6px 5px ;
+
+}
+#list{
+    color:#fff;
+    padding: 20px;
+}
