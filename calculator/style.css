@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ccc;
+ background-image: url('pexels-n-voitkevich-6863333.jpg');
+  }
+  
+  #display {
+    width: 200px;
+    height: 20px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  button[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #ccc;
+  }
+ */
+
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .calculator {
+    width: 500px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin:150px;
+   margin-left:400px;
+   background-color: #0f3a38;
+  }
+  .display {
+    width: 50%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    margin:30px;
+  }
+  .button {
+    width: 50px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #12726d;
+    color: #fff;
+    cursor: pointer;
+    margin:4px;
+  }
+  .button:hover {
+    background-color: #e2e7e2;
+  }
